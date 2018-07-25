@@ -1,0 +1,256 @@
+body{
+	font: 400 15px 'Varela Round', sans-serif;
+	line-height: 1.8;
+	margin: 0px;
+	padding: 0px;
+}
+.navbar {
+      margin-bottom: 0;
+      z-index: 9999;
+      border: 0;
+      font-size: 14px !important;
+      line-height: 1.42857143 !important;
+      letter-spacing: 4px;
+      border-radius: 0;
+      font-family: 'Roboto', sans-serif;
+      color: white;
+  
+  }
+  .navbar-brand img{
+  	margin: 0px;
+  	width:100px;
+  	height: 50px;
+  }
+  .navbar li a, .navbar .navbar-brand {
+      color: #fff !important;
+  }
+.navbar-nav li a:hover, .navbar-nav li.active a {
+      background-color: #00d346!important;
+  }
+.navbar-nav li a:hover{ 
+  background-color: #00d346!important;
+ color: #fff!important;
+}
+.nav .current{ 
+  background-color: #00d346!important;
+ color: #fff!important;
+}
+.navbar-inverse .navbar-toggle {
+      border-color: #00d346;
+    }
+.crousel-inner img {
+      width: 100%;
+      height: 300px;
+  }
+  .carousel-indicators li {
+      border-color: #00d346;
+  }
+  .carousel-indicators li.active {
+      background-color: #00d346;
+  }
+  .carousel-caption p{
+  	font-size: 24px;
+  }
+  .carousel-caption h1{
+  	font-weight: 650;
+  }
+.carousel-caption .btn{
+	text-decoration: none;
+	color: #fff;
+	background: transparent;
+	border: 2px solid #00d346;
+	padding: 10px 24px;
+}
+.carousel-caption .btn:hover{
+	color: #fff ;
+	background-color: #00d346;
+}
+.psudo .container-fluid{
+  margin-top: 30px;
+  padding-top: 30px;
+  background-color: #fafafa;
+}
+.head1{
+  font-size: 60px;
+  margin-top: -17px;
+}
+.psudo h3{
+  color: #62BC07;
+}
+.caption{
+  position: absolute;
+  z-index: 11;
+  margin-top: 40px;
+}
+.caption1{
+  position: absolute;
+  z-index: 10;
+  margin-top: 40px;  
+}
+.caption2{
+  position: absolute;
+  z-index: 9;
+  margin-top: 40px; 
+}
+.warpper-heading{
+  margin-bottom: 150px;
+}
+.text-banner{
+ 
+}
+.text-banner h2{
+  color: #FA2204;
+}
+ .text-banner .carousel-indicators li {
+      border-color: #00d346;
+      margin-bottom: -75px;
+  }
+ .text-banner .carousel-indicators li.active {
+      background-color: #00d346;
+  }
+  .footer{
+    margin-top: 55px;
+    padding-bottom: 40px;
+    background: #272727;
+  }
+.footer .fa {
+ border-radius: 2%;
+  padding: 5px 120px;
+  font-size: 30px;
+  width: 20px;
+  text-align: center;
+  text-decoration: none;
+  margin: 0px 0px;
+}
+.footer .fa-facebook:hover {
+  background: #3B5998;
+  color: white;
+  opacity: 0.7;
+}
+.footer .fa-twitter:hover{
+  background: #55ACEE;
+  color: white;
+  opacity: 0.7;
+}
+.footer .fa-google:hover{
+  background: #dd4b39;
+  color: white;
+  opacity: 0.7;
+}
+.footer .fa-linkedin:hover{
+  background: #007bb5;
+  color: white;
+  opacity: 0.7;
+}
+.footer .fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.fa-google {
+  background: #dd4b39;
+  color: white;
+}
+
+.fa-linkedin {
+  background-color: #007bb5; 
+  color: white;
+}
+      /* services styling */
+.btn1 .btn{
+  margin-top: 20px;
+  margin-left: 20px;
+  text-decoration: none;
+  background: #00d346 !important;
+  color: #fff;
+  background: transparent;
+  border: 2px solid #00d346;
+  padding: 10px 24px;
+}
+.btn1 .btn:hover{
+  color: #000;
+  border: 2px solid #00d346;
+  background: transparent!important; 
+}
+  .panel {
+      background-color: #F5F5F5;
+      height: 500px;
+      border-radius:40 !important;
+      
+      text-decoration: none;
+  }
+
+  .panel-footer .btn{
+    margin-top: 20px;
+      color: #fff;
+      background: #00d346;
+  }
+  .panel-footer .btn:hover{
+    color: #000;
+  border: 2px solid #00d346;
+  background: transparent!important;   
+  }
+
+
+
+        /* services styling ends */
+
+        /* home page qurires start*/
+  @media screen and (max-width: 768px){
+    .carousel-caption{
+      padding-left: 20px;
+    } 
+    @media screen and (max-width: 1000px) {
+      .carousel-caption .btn{
+      margin-left: 10px;
+  }
+  @media screen and (max-width: 768px){
+    .carousel-caption .btn{
+      margin-left: 0px;
+  }
+  @media screen and (max-width: 480px) {
+    .carousel-caption .btn {
+      text-align: center;
+      margin-top: -6px;
+    }
+  @media screen and (max-width: 480px) {
+    .carousel-caption{
+     margin-top: -30px; 
+     margin-left: 20px;
+    }
+  @media screen and (max-width: 480px) {
+    .footernav{
+      padding-left: 0%;
+      text-decoration:overline;
+    }
+
+      @media screen and (max-width: 480px) {
+    .footer .fa{
+      padding: 5px 70px;
+    }
+
+      /* home Quries end */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

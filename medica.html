@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Mudassir Designs</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css">
+  <link href="https://fonts.googleapis.com/css?family=Varela+Round" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="icon" type="image/png" href="accerts/android-icon-96x96.png">
+
+
+
+</head>
+<body>
+              <!-- Navbar -->
+<div class="w3-top">
+  <div class="w3-bar w3-black w3-card w3-opacity w3-hover-opacity-off w3-right-align w3-large">
+    <a class="w3-bar-item w3-button w3-hide-medium w3-hide-large w3-right w3-padding-large w3-hover-white w3-large w3-red" href="javascript:void(0);" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
+    <a href="#" class="w3-bar-item w3-button w3-padding-large w3-hover-red" style="text-decoration: none;">Resturant</a>
+    <div class="w3-right w3-hide-small">
+    <a href="#menu" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-red" style="text-decoration: none;">Menu</a>
+    <a href="#work" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-red" style="text-decoration: none;">Dishes</a>
+    <a href="#contact" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-red" style="text-decoration: none;">Contact</a>
+  </div>
+  </div>
+
+  <!-- Navbar on small screens -->
+  <div id="navDemo" class="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium w3-large">
+    <a href="#menu" class="w3-bar-item w3-button w3-padding-large w3-hover-red" style="text-decoration: none;">Menu</a>
+    <a href="#work" class="w3-bar-item w3-button w3-padding-large w3-hover-red" style="text-decoration: none;">Dishes</a>
+    <a href="#contact" class="w3-bar-item w3-button w3-padding-large w3-hover-red" style="text-decoration: none;">Contact</a>
+  </div>
+</div>
+
+
+
+         <script>
+// Used to toggle the menu on small screens when clicking on the menu button
+function myFunction() {
+    var x = document.getElementById("navDemo");
+    if (x.className.indexOf("w3-show") == -1) {
+        x.className += " w3-show";
+    } else { 
+        x.className = x.className.replace(" w3-show", "");
+    }
+}
+</script>
+
+        <!-- Header with image -->
+
+
+              <header class="bgimg w3-display-container w3-grayscale-min" id="menu">
+                <img src="accerts/file-20170731-22175-67v3q2.jpg" style="background-size: cover;min-height: 90%;background-repeat: no-repeat;">
+                <div class="w3-display-bottomleft w3-padding">
+                  <span class="w3-tag w3-xlarge">Open from 10am to 12pm</span>
+                </div>
+                <div class="w3-display-middle w3-center">
+                  <span class="w3-text-white w3-hide-small" style="font-size:100px">THIN<br>CRUST BURGER</span>
+                  <p><a href="#menu" class=" w3-xxlarge w3-black" style="text-decoration: none;">Let me see the menu</a></p>
+                </div>
+              </header>
+
+
+
+
+                 <!-- Menu Container -->
+
+                   
+                    <div class="w3-container w3-center">
+                      <h1 class="w3-text-red" style="font-size: 55px;font-weight: 500;">MENU</h1>
+                        </div>
+                      </div>
+                  <div class="w3-main w3-content" style="max-width:1250px;margin-top:30px">
+
+                    <!-- First Photo Grid-->
+                    <div class="w3-row-padding w3-center" id="food">
+                      <div class="w3-quarter">
+                        <img src="accerts/sandwich.jpg" alt="Sandwich" style="width:100%">
+                        <h3>The Perfect Sandwich, A Real NYC Classic</h3>
+                      </div>
+                      <div class="w3-quarter">
+                        <img src="accerts/steak.jpg" alt="Steak" style="width:100%">
+                        <h3>Let Me Tell You About This Steak</h3>
+                      </div>
+                      <div class="w3-quarter">
+                        <img src="accerts/cherries.jpg" alt="Cherries" style="width:100%">
+                        <h3>Cherries, interrupted</h3>
+                        <p>What else?</p>
+                      </div>
+                      <div class="w3-quarter">
+                        <img src="accerts/salmon.jpg" alt="Pasta and Wine" style="width:100%">
+                        <h3>Once Again, Robust Wine and Vegetable Pasta</h3>
+                      </div>
+                    </div>
+
+
+             <!-- Dish Container -->
+
+              <div class="w3-container" style="padding:128px 16px" id="work">
+                <h1 class="w3-center" style="color: teal;font-size: 50px;font-weight: 500;">OUR DISHES</h1>
+                <p class="w3-center" style="font-size: 35px;">What we've done for people</p>
+
+                <div class="w3-row-padding" style="margin-top:64px">
+                  <div class="w3-col l3 m6">
+                    <img src="accerts/01.jpg" style="width:290px;height: 200px;" onclick="onClick(this)" class="w3-hover-opacity" alt="A microphone">
+                  </div>
+                  <div class="w3-col l3 m6">
+                    <img src="accerts/02.jpg" style="width:290px;height: 200px;" onclick="onClick(this)" class="w3-hover-opacity" alt="A phone">
+                  </div>
+                  <div class="w3-col l3 m6">
+                    <img src="accerts/03.jpg" style="width:290px;height: 200px;" onclick="onClick(this)" class="w3-hover-opacity" alt="A drone">
+                  </div>
+                  <div class="w3-col l3 m6">
+                    <img src="accerts/04.jpg" style="width:290px;height: 200px;" onclick="onClick(this)" class="w3-hover-opacity" alt="Soundbox">
+                  </div>
+                </div>
+
+                <div class="w3-row-padding w3-section">
+                  <div class="w3-col l3 m6">
+                    <img src="accerts/05.jpg" style="width:290px;height: 200px;" onclick="onClick(this)" class="w3-hover-opacity" alt="A tablet">
+                  </div>
+                  <div class="w3-col l3 m6">
+                    <img src="accerts/06.jpg" style="width:290px;height: 200px;" onclick="onClick(this)" class="w3-hover-opacity" alt="A camera">
+                  </div>
+                  <div class="w3-col l3 m6">
+                    <img src="accerts/07.jpg" style="width:290px;height: 200px;" onclick="onClick(this)" class="w3-hover-opacity" alt="A typewriter">
+                  </div>
+                  <div class="w3-col l3 m6">
+                    <img src="accerts/08.jpg" style="width:290px;height: 200px;" onclick="onClick(this)" class="w3-hover-opacity" alt="A tableturner">
+                  </div>
+                </div>
+              </div>
+
+                                <!-- Contact us section -->
+
+
+                    <div class="w3-display-container w3-opacity-min">
+                  <div class="w3-display-middle">
+                     <span class="w3-xxlarge  w3-wide">CONTACT</span>
+                  </div>
+                </div>
+
+                <!-- Container (Contact Section) -->
+                <div class="w3-content w3-container w3-padding-64" id="contact">
+                  <h3 class="w3-center">WHERE I WORK</h3>
+                  <p class="w3-center"><em>I'd love your feedback!</em></p>
+
+                  <div class="w3-row w3-section">
+                    <div class="w3-col m4 w3-container">
+                      <!-- Add Google Maps -->
+                      <div class="w3-round-large "><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d380510.67419382115!2d-88.01215670974219!3d41.83390416638683!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x880e2c3cd0f4cbed%3A0xafe0a6ad09c0c000!2sChicago%2C+IL!5e0!3m2!1sen!2s!4v1530418667910" width="300" height="400" frameborder="0" style="border:0" allowfullscreen></iframe></div>
+                    </div>
+                    <div class="w3-col m8 w3-panel">
+                      <div class="w3-large w3-margin-bottom">
+                        <i class="fa fa-map-marker fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> Chicago, US<br>
+                        <i class="fa fa-phone fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> Phone: +00 151515<br>
+                        <i class="fa fa-envelope fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> Email: mail@mail.com<br>
+                      </div>
+                      <p>Swing by for a cup of <i class="fa fa-coffee"></i>, or leave me a note:</p>
+                      <form action="/action_page.php" target="_blank">
+                        <div class="w3-row-padding" style="margin:0 -16px 8px -16px">
+                          <div class="w3-half">
+                            <input class="w3-input w3-border" type="text" placeholder="Name" required name="Name">
+                          </div>
+                          <div class="w3-half">
+                            <input class="w3-input w3-border" type="text" placeholder="Email" required name="Email">
+                          </div>
+                        </div>
+                        <input class="w3-input w3-border" type="text" placeholder="Message" required name="Message">
+                        <button class="w3-button w3-black w3-right w3-section" type="submit">
+                          <i class="fa fa-paper-plane"></i> SEND MESSAGE
+                        </button>
+                      </form>
+                    </div>
+                  </div>
+                </div>
+
+             <!-- Footer -->
+<footer class="w3-container w3-padding-64 w3-center">  
+  <div class="w3-xlarge w3-padding-32">
+    <i class="fa fa-facebook-official w3-hover-opacity"></i>
+    <i class="fa fa-instagram w3-hover-opacity"></i>
+    <i class="fa fa-snapchat w3-hover-opacity"></i>
+    <i class="fa fa-pinterest-p w3-hover-opacity"></i>
+ </div>
+ <p>Created by <a href="#" target="_blank" style="text-decoration: none;">Mudassir Iftikhar</a></p>
+</footer>
+
+</body>
+</html>
